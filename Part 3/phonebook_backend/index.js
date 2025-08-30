@@ -3,6 +3,7 @@ const app = express()
 // var morgan = require('morgan')
 
 app.use(express.json())
+app.use(express.static('dist'))
 
 // morgan.token('post', function (tokens, req, res) { 
 //     if (tokens.method(req,res) === 'POST') {
