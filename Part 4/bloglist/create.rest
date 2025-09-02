@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/blogs/api/blogs/
+Content-Type: application/json
+
+{
+  "content": "Vode rest client is pretty handy tool",
+  "important": true
+}
